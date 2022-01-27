@@ -1,0 +1,73 @@
+/* 
+Color pallete 
+#EF30F2 bright purple
+#C3B6F2 lavender
+#464B59 grey
+#A68A56 tan
+#F2C49B peach
+*/
+
+/* Global Styles
+---------------------------------*/
+* 
+body { 
+    color: #464b59;
+
+}
+img {
+    width: 500px;
+}
+a {
+    color: #ef30f2;
+}
+a hover {
+    text-decoration: none;
+}
+
+/* Profile
+---------------------------------*/
+header {
+    background-color: #c3b6f2;
+}
+/* Project
+---------------------------------*/
+.projects {
+    background: #A68A56;
+}
+.projects a:link {
+    color: white;
+    background-color: #ef30f2;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects a:visited {
+    color: white;
+    background-color: #ef30f2;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+
+.projects a:hover {
+    color: black;
+    background-color: rgba(239, 48, 242, 0.5);
+}
+
+/* Work Experience
+---------------------------------*/
+.work-experience {
+    background: #F2C49B;
+}
+
+/* Education
+---------------------------------*/
+
+
+/* Contact
+---------------------------------*/
+footer {
+    background: #464b59;
+    color: #fff;
+}
